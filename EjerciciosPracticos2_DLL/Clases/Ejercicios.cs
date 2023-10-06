@@ -44,40 +44,6 @@ namespace EjerciciosPracticos2_DLL.Clases
 
         //Ejercicio 2
 
-        public void Encontrar()
-        {
-            Console.Write("Ingrese un número a buscar: ");
-            int numBuscar = Convert.ToInt32(Console.ReadLine());
-
-            int[] numeros = { 1, 2, 3, 4, 2, 5, 6, 7, 8, 9, 10 }; 
-            int[] posiciones = new int[numeros.Length]; 
-
-            int contador = 0; 
-
-            for (int x = 0; x < numeros.Length; x++)
-            {
-                if (numeros[x] == numBuscar)
-                {
-                    posiciones[contador] = x;
-                    contador++;
-                }
-            }
-
-            if (contador > 0)
-            {
-                Console.WriteLine("El número " + numBuscar + " se encontró en la posicion:");
-
-                for (int i = 0; i < contador; i++)
-                {
-                    Console.WriteLine("Posición " + (i + 1) + ": " + posiciones[i]);
-                }
-            }
-            else
-            {
-                Console.WriteLine("El número " + numBuscar + " no se encontró.");
-            }
-        }
-
         //Ejercicio 3
 
 

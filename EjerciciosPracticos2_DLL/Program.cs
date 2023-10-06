@@ -11,11 +11,8 @@ namespace EjerciciosPracticos2_DLL
     {
         static void Main(string[] args)
         {
-            //Ejercicios ejercicio1 = new Ejercicios();
-            //ejercicio1.SumarArreglos();
-
-            Ejercicios ejercicio2 = new Ejercicios();
-            ejercicio2.Encontrar();
+            Ejercicios ejercicio1 = new Ejercicios();
+            ejercicio1.SumarArreglos();
 
             Console.ReadKey();
         }
